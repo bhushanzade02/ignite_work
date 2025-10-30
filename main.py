@@ -66,6 +66,7 @@
 #     conn.close()
 
 #     return {"total_books": len(result), "books": result}
+
 from fastapi import FastAPI, HTTPException
 import mysql.connector
 from mysql.connector import Error
